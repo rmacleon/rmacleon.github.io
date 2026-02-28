@@ -1,0 +1,224 @@
+---
+---
+
+/*
+##################################################################################
+##  {{site.time | date: '%Y'}} Copyright Frank MacLeon Consulting Services LLC  
+##################################################################################
+*/
+
+header {
+  width:270px;
+  float: left;
+  position:fixed;
+  -webkit-font-smoothing:subpixel-antialiased;
+  text-align: center;
+}
+
+body {
+  padding: 25px;
+  font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin:0 0 20px;
+}
+
+h1, h2, h3 {
+  line-height:1.1;
+}
+
+h1 {
+  font-size:28px;
+  text-align: center;
+  color: #069;
+}
+
+h2 {
+  text-align: center;
+  color:#393939;
+}
+
+h3, h4, h5, h6 {
+  color:#494949
+}
+
+a {
+  color:#115d94;
+  text-decoration:none;
+}
+
+a:hover, a:focus {
+  color:#069;
+  font-weight: bold;
+}
+
+a small {
+  font-size:11px;
+  color:#777;
+  margin-top:-0.3em;
+  display:block;
+}
+
+a:hover small {
+  color:#777;
+}
+
+.wrapper {
+  width:860px;
+  margin:0 auto;
+}
+
+img {
+  max-width:100%;
+}
+
+.logo_img {
+  img {
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    width: 90%;
+    border-radius: 50%;
+    border: 6px solid #069;
+    transition: transform 0.6s;
+      &:hover {
+        transform: scale3d(0.95,0.95,1);
+      }
+  }
+}
+
+strong {
+  font-weight:900;
+}
+
+section {
+  width:500px;
+  float:right;
+  padding-bottom:50px;
+}
+
+small {
+  font-size:11px;
+}
+
+hr {
+  border:0;
+  height:3px;
+  margin:0 0 20px;
+}
+
+footer {
+  width:270px;
+  float:  left;
+  position:fixed;
+  bottom:25px;
+  -webkit-font-smoothing:subpixel-antialiased;
+  text-align: center;
+}
+
+.paymentService {
+  padding-left: 1em; 
+  padding-right: 1em; 
+  padding-bottom: 1.5em; 
+  padding-top: 0.5em; 
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width: 70%;
+}
+
+@media print, screen and (max-width: 960px) {
+
+  div.wrapper {
+    width:auto;
+    margin:0;
+  }
+
+  header, section, footer {
+    float:none;
+    position:static;
+    width:auto;
+    .paymentService {
+      display:block;
+      margin-left:auto;
+      margin-right:auto;
+      margin-top: 1em;
+      width: 40%;
+      padding-bottom: 2em; 
+    }
+  }
+
+  footer {
+    padding-bottom: 2em; 
+
+  }
+
+  header {
+    padding-right:320px;
+    padding-right:30px;
+    padding-left:30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    float:none;
+    position:static;
+  }
+
+  section {
+    border:1px solid #e5e5e5;
+    border-width:1px 0;
+    padding:20px 0;
+    margin:0 0 20px;
+  }
+
+  header a small {
+    display:inline;
+  }
+}
+
+@media print, screen and (max-width: 720px) {
+  body {
+    word-wrap:break-word;
+  }
+
+  header {
+    padding:0;
+  }
+
+  header ul, header p.view {
+    position:static;
+  }
+
+  pre, code {
+    word-wrap:normal;
+  }
+}
+
+@media print, screen and (max-width: 480px) {
+  body {
+    padding:15px;
+  }
+}
+
+@media print, screen and (max-height: 800px) {
+  header {
+    h1, h2, h3, h4, h5 {
+      margin:0;
+    }
+  }
+    .paymentService {
+      padding-bottom: 0em; 
+    }
+    footer {
+      bottom:0.75em;
+    }
+}
+
+@media print {
+  body {
+    padding:0.4in;
+    font-size:12pt;
+    color:#444;
+  }
+}

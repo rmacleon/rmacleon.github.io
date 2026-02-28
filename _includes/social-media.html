@@ -1,0 +1,78 @@
+<!--
+##################################################################################
+##  {{site.time | date: '%Y'}} Copyright Frank MacLeon Consulting Services LLC  
+##################################################################################
+-->
+
+{% if site.paypalme_acct %}
+   <a href="https://paypal.me/{{ site.paypalme_acct }}?country.x=US&locale.x=en_US" target="_blank"><span title="Paypal"><i class="fa fa-paypal" style="font-size:4em" aria-hidden="true"></i></span></a><br>
+{%- else %}
+{% endif %}
+
+
+{% if site.venmo_acct %}
+  <div class="paymentService">
+    <a href="https://venmo.com/code?user_id={{site.venmo_acct}}" target="_blank" rel="noopener noreferrer"><img src="assets/Venmo_Logo_Blue.png" alt="Venmo" ></a><br>
+  </div>
+{%- else %}
+{% endif %}
+
+<h3>Contact me:</h3>
+
+{% case site.facebook_username %}
+  {% when null %}
+  {%- else %}
+    <a href="https://facebook.com/{{ site.facebook_username }}/" target="_blank"><span title="Facebook"><i class="fa fa-facebook" style="font-size:3em" aria-hidden="true"></i></span></a>
+    &emsp;
+{%- endcase %}
+
+{% case site.x-twitter_username %}
+  {% when null %}
+  {%- else %}
+    <a href="https://twitter.com/{{ site.x-twitter_username }}/" target="_blank"><span title="Twitter"><i class="fa fa-twitter" style="font-size:3em" aria-hidden="true"></i></span></a>
+    &emsp;
+{%- endcase %}
+
+{% case site.github_username %}
+  {% when null %}
+  {%- else %}
+    <a href="http://github.com/{{ site.github_username }}" target="_blank"><span title="GitHub"><i class="fa fa-github" style="font-size:3em"></i></span></a>
+    &emsp;
+{%- endcase %}
+
+{% case site.linkedin_username %}
+  {% when null %}
+  {%- else %}
+    <a href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank"><span title="LinkedIn"><i class="fa fa-linkedin" style="font-size:3em" aria-hidden="true"></i></span></a>
+    &emsp;
+{%- endcase %}
+
+{% case site.instagram_username %}
+  {% when null %}
+  {%- else %}
+    <a href="https://www.instagram.com/{{ site.instagram_username }}/" target="_blank"><span title="Instagram"><i class="fa fa-instagram" style="font-size:3em" aria-hidden="true"></i></span></a>
+    &emsp;
+{%- endcase %}
+
+{% case site.pinterest_username %}
+  {% when null %}
+  {%- else %}
+    <a href="https://www.pinterest.com/pin/{{ site.pinterest_username }}/" target="_blank"><span title="Pinterest"><i class="fa fa-pinterest" style="font-size:3em" aria-hidden="true"></i></span></a>
+    &emsp;
+{%- endcase %}
+
+{% case site.etsy_username %}
+  {% when null %}
+  {%- else %}
+    <a href="https://www.etsy.com/shop/{{ site.etsy_username }}" target="_blank"><span title="Etsy"><i class="fa fa-etsy" style="font-size:2.6em" aria-hidden="true"></i></span></a>
+    &emsp;
+{%- endcase %}
+
+{% case site.youtube_username %}
+  {% when null %}
+  {%- else %}
+    <a href="https://youtube.com/@{{ site.youtube_username }}" target="_blank"><span title="YouTube"><i class="fa fa-youtube-play" style="font-size:3em" aria-hidden="true"></i></span></a>
+    &emsp;
+{%- endcase %}
+
+<a href="mailto:{{site.email_address}}?subject={{site.email_subject}}" target="_blank"><span title="Email {{site.email_firstName}}"><i class="fa fa-envelope-o" style="font-size:3em" aria-hidden="true"></i></span></a>

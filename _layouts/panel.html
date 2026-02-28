@@ -1,0 +1,42 @@
+<!--
+##################################################################################
+##  {{site.time | date: '%Y'}} Copyright Frank MacLeon Consulting Services LLC  
+##################################################################################
+-->
+
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{site.site_name}}</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="{{site.baseurl}}/assets/favicon.ico">
+  {% seo title=false %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="logo_img">
+          <a href="{{site.url}}/"><img src="{{site.url}}/profile.jpg" alt="Logo" /></a>
+        </div>
+        <h3><a href="{{site.url}}/">{{ site.profile_name }}</a></h3>
+        <h2><a href="{{site.url}}/">{{ site.site_name }}</a></h2>
+        <h3>{{ site.subtitle_1}}</h3>
+        <p>{{ site.subtitle_2}}</p>
+      </header>
+      <footer>
+        {% include social-media.html %}
+      </footer>
+      <section>
+        <h1>{{ page.pageTitle }}</h1>
+        {{ content }}
+        {% include privacy-tc.html %} <br><br><br><br>
+        All copyrights reserved unless expressly granted in writting. <br>
+        {{site.time | date: '%Y'}} &copy; {{site.site_name}} 
+      </section>
+    </div>
+  </body>
+</html>

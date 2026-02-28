@@ -1,0 +1,37 @@
+site_name: Your Company Name
+subtitle_2: We have the best rates and highest quality.
+email_address: fmacleon@yahoo.com
+
+# Optional Links to Payment, Social Media, and Online Market Place Account Names
+# Remove sample account names and replace with the ones you want to use
+venmo_acct: 3912414659610071279 
+paypalme_acct: fmacleon
+facebook_username: ChrisKringlePhillyLLC 
+x-twitter_username: MacKeoTweet
+github_username: fmacleon
+linkedin_username: frank-macleon-6a001b38
+instagram_username: 
+pinterest_username:   
+etsy_username: 
+youtube_username: 
+
+sass:
+  style: compressed
+
+#######################################################################################################
+### DO NOT MODIFY THE SETTING BELOW UNLESS YOU ARE SURE WHAT YOU ARE DOING:
+### SITE SETTINGS - EDIT THE FOLLOWING WITH CAUTION
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock", "*.sh", "*.txt", "FML_notes"]
+#######################################################################################################
+##  Copyright Frank MacLeon Consulting Services LLC  
+##  Obtain permission for one-time download and implementation
+##  Permission is typically granted at registered, in-person demonstrations and trainings.
+##  Permission may also be granted via an email request to fmacleon@yahoo.com
+##  THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, 
+##  INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A 
+##  PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR 
+##  COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, 
+##  WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR 
+##  IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+##  No re-distribution permitted. No warrantee expressed or implied. Use at your own risk. 
+#######################################################################################################
