@@ -1,4 +1,4 @@
-# Easy 2025 Website for Organizations and Small Businesses
+# Rebecca MacLeon - Supply Chain Professonal and Creative
 ### This website template is hosted on github.com at https://github.com/fmacleon
 ## This website is intended to create a landing page for your visitors
 
