@@ -1,15 +1,15 @@
 # Rebecca MacLeon - Supply Chain Professonal and Creative
-### This website template is hosted on github.com at https://github.com/fmacleon
-## This website is intended to create a landing page for your visitors
+### Hey there! I'm Becky
+## I am a Supply Chain Professional and the creator of Sometimes Coco, my handcraft business.
 
-**What this website template is able to do:**
-- It will provide a "landing" webpage and provide links to your payment service, social media and email accounts.
-- It will provide a webpage where you can describe your products and/or services. 
-- It is an easy, low cost way to create a web presence for your organization or small business.
-- This website is *not* intended to report visitor activity.
+**I've always been both analytical and creative**
+- I love creating solutions for my business clients using data and delivering the insights in easy-to-follow one-page summaries.  I provide insights into P&Ls, forecasting, and product reviews. 
+- It has always married together nicely my technical skills, business knowledge, and people-centered approach. 
+- At the same time, I have always created objects by hand- painting, crocheting, knitting, and multi-media crafting. 
+- I am both analytical and creative- and Sometimes Coco. 
 
-If you encounter any website coding issues, please reach out to me at fmacleon@yahoo.com 
-If I can identify and fix the problem, I will update and let you know. 
+Sometimes Coco is named after my dog- kinda. My dog, like many dogs, has many names and many eras. Sometimes she looks big, sometimes she looks small. Sometimes she's a formal "Chloe" sometimes a playful "Cocobeans". 
+When it came to naming the business, "Sometimes Coco" captures the full range of products offered and the ever-expanding creative pulls. 
 
 # What will you need to create your own website:
 1. **Basic information about your organization/company for the banner section.**
